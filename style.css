@@ -111,6 +111,15 @@ hr {
   font-variant-numeric: tabular-nums;
 }
 
+.post-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.75rem;
+  border-radius: 0.375rem;
+}
+
 footer {
   margin-top: 2rem;
   font-size: 0.9rem;
