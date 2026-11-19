@@ -1,6 +1,6 @@
 body {
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  line-height: 1.5;
+  line-height: 1.55;
   color: #111;
   background: #fff;
   max-width: 1080px;
@@ -44,16 +44,6 @@ p {
   margin-bottom: 0.9rem;
 }
 
-ul {
-  margin-top: 0.25rem;
-  margin-bottom: 1rem;
-  padding-left: 1.5rem;
-}
-
-li {
-  margin-bottom: 0.35rem;
-}
-
 a {
   color: #0044cc;
   text-decoration: none;
@@ -69,19 +59,22 @@ a:hover {
   font-size: 0.95rem;
 }
 
-.post-list {
-  list-style: disc;
-  padding-left: 1.5rem;
+table {
+  border-collapse: collapse;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
 }
 
-.post-list li {
-  margin-bottom: 0.4rem;
+td {
+  padding: 0.3rem 2rem 0.3rem 0;
+  vertical-align: top;
 }
 
 .post-date {
   color: #444;
   font-size: 0.95rem;
-  margin-left: 0.35rem;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
 }
 
 footer {
